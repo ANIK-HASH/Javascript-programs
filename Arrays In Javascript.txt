@@ -1,3 +1,4 @@
+--Initial command 
 
 let example = [1,2,'DTFG PVT.ltd',10.9]
 console.log("Example Printed: "+example);

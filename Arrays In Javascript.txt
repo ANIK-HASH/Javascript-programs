@@ -1,0 +1,28 @@
+
+let example = [1,2,'DTFG PVT.ltd',10.9]
+console.log("Example Printed: "+example);
+
+console.log("Type Is:"+typeof example);
+
+example.push("RED");
+
+console.log("Updated Exaple"+example);
+
+example.pop(4);
+
+console.log("Updated Exaple"+example);
+
+
+
+
+
+
+
+Output : 
+Running] node "d:\VS Practicals\ArrayInJS.js"
+Example Printed: 1,2,DTFG PVT.ltd,10.9
+Type Is:object
+Updated Exaple1,2,DTFG PVT.ltd,10.9,RED
+Updated Exaple1,2,DTFG PVT.ltd,10.9
+
+[Done] exited with code=0 in 0.171 seconds

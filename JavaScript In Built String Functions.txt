@@ -1,0 +1,31 @@
+1] length
+
+	let s = 'It Is Javascript';
+
+	let result = s.length;
+
+2] concat
+
+	let s = 'It Is Javascript';
+
+	let s1 = "and java related course";
+
+	let result = s+" "+s1;
+
+		OR
+
+	let result = s.concat(s1);  OR  let result = s.concat(" ",s1);
+
+3] charAt
+
+	let s1 = "And It is java also";
+	console.log("char AT"+s1.charAt(4));
+
+	O/P : I
+
+4] indexOf
+
+	let s1 = "And It is java also";
+	console.log("Index of"+s1.indexOf('I'));
+
+	O/P : 4

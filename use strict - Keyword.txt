@@ -1,0 +1,14 @@
+Must place the "use strict" string at the top of the file or function body. Otherwise, it will not work
+
+function regularFunc() {
+  username = "Marie"
+  console.log(username)
+}
+
+regularFunc()
+
+
+
+When writing JavaScript code in strict mode, you must declare all variables and objects before use. This is useful because it helps to prevent creating global variables by accident which can lead to bugs.
+
+Error shows in console

@@ -1,0 +1,6 @@
+Add Extensions In Visual Studio for execute javascript code
+
+	1] Code Runner
+	2] Live Server
+
+After installing Code Runner Extension , JS code will execuete by simply click on triangular button

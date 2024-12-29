@@ -1,0 +1,25 @@
+1] Primitive Datatype	- Created In Stack memory
+2] Reference Datatype  	- Created In Heap Memory
+
+Primitive : Number , String , Boolean , Null , Undefined 
+Reference : Array , Object , Date , Function
+
+for example : 
+	var a = 50;
+
+		// To check which data type is assigned to a then
+	console.log(typeof a);
+
+
+let x = 3;
+let y = 3;
+console.log(x==y) -> true
+
+let xa = [30];
+let ya = [30];
+
+console.log(xa==ya); -> false 
+
+	xa contains = [23] as well heap address also like 
+
+	Both variables address is different

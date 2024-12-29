@@ -1,0 +1,59 @@
+let : 
+	Value can be change 
+
+const :
+	Value can not change it's fix value
+
+var : 
+	Value can be change 
+
+Note: Var Is old coding format than let keyword
+
+for example :
+
+1] 	if(5>2)
+	{
+		console.log("Inside block");
+		let address = "Delhi";
+		console.log("Current Address Is : ",address);		O/P :Current Address Is : Delhi
+		address = "Mumbai";
+		console.log("Updated Address Is : ",address);		O/P :Updated Address Is : Mumbai
+	}
+
+	console.log("Updated Address Is : ",address);			Getting Error : Address is local variable / Function Scope
+
+
+2]	const address = "Mumbai";
+
+	if(5>2)
+	{
+		console.log("Inside block");
+		address = "Kerala";
+		console.log("Updated Address Is : ",address);		Getting Error : Const variable can not assign second time it's final value	
+	}
+
+
+3] Var has no local scope / functional scope it behave like global scope
+   Var data can be override
+
+	if(5>2)
+	{
+		console.log("Inside block");
+		var address = "Delhi";
+		console.log("Current Address Is : ",address);		O/P :Current Address Is : Delhi			
+	}
+
+	console.log("Updated Address Is : ",address);			O/P :Updated Address Is : Delhi
+		
+	var x = 10;
+	var x = 30;
+
+	console.log("x value:",x);					O/P :x value:30
+	console.log("Updated x value:",x);				O/P :Updated x value:30
+
+
+4] 	let x = 10;
+	let x = 30;
+
+	console.log("x value:",x);					Getting Error : X has already been declared
+	console.log("Updated x value:",x);				
